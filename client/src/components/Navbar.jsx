@@ -22,10 +22,12 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-1.5 group">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center shadow-md shadow-orange-200 group-hover:shadow-orange-300 transition-shadow duration-300">
-              <span className="text-white font-black text-sm tracking-tight">
-                E
-              </span>
+            <div className="w-9 h-9 rounded-xl overflow-hidden shadow-md shadow-orange-200 group-hover:shadow-orange-300 transition-shadow duration-300">
+              <img
+                src="/images/iphone/image.png"
+                alt="EMI Store logo"
+                className="w-9 h-9 object-cover"
+              />
             </div>
             <div className="flex items-baseline">
               <span className="text-xl font-extrabold gradient-text">EMI</span>
